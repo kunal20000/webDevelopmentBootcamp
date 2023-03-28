@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> JS 4- more on Functions</title>
+</head>
+<body>
+     <a href="https://www.facebook.com" name="fb">FB</a>
+     <br/>
+     <a href="https://www.google.com" name="ggl">Google</a>
+     <br/>
+     <a href="https://www.amazon.com" name="amz">Amazon</a>
+     <br/>
+     <div id="californium"></div>
+     <script>
+        function myCoolFunction() {
+
+            var noOfLinks= document.anchors.length
+            return noOfLinks
+        }
+        document.getElementById("californium").innerHTML= myCoolFunctions()
+     </script>
+    
+</body>
+</html>
